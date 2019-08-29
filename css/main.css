@@ -1,0 +1,203 @@
+/* Reset */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+
+ol.b, ul.b {
+	list-style: disc;
+    margin-left: 1.5em
+}
+
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Basic */
+html {
+  scroll-behavior: smooth;
+}
+
+html.hide {
+  overflow-y: hidden;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1em;    
+    line-height: 1.5;
+    color: #000;
+    text-align: left;     
+}
+
+img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+
+hr {
+  height:1px;
+  border-width:0;
+  color: #0002;
+  background-color: #0002;
+}
+
+.nopadding {
+    padding: 0 !important;
+}
+
+.nomargin {
+    margin: 0 !important;
+}
+
+/* Text */
+i {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;    
+  font-style: italic;
+}
+
+b {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+    color: #000;   
+}
+
+a:hover {
+    color: #333;
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1 {
+    font-size: 1.5em;
+    line-height: 1.5;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0;
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
+
+h2 {
+    font-size: 1.3em;
+    line-height: 1.5;
+    text-transform: uppercase;
+    padding: 0;
+    margin-top: .5em;
+    margin-bottom: .5em;    
+}
+
+h3 {
+    font-size: 1.2em;
+    line-height: 1.5;
+    text-transform: lowercase;
+}
+
+
+/* Bottom left text */
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+/* Top left text */
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+/* Top right text */
+.top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+
+/* Bottom right text */
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* Lines */
+.vl {
+  border-left: 2px solid black;
+  height: 40vh;
+  position: relative;
+  left: 50%;
+  margin-left: -1px;
+  top: 0;
+}
+
+.hsm {
+  border-top: 2px solid black;
+  width: 1em;
+  position: relative;
+  left: 50%;
+  margin-left: -0.5em;
+  top: 0;
+}
