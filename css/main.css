@@ -68,7 +68,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 1em;    
-    line-height: 1.5;
+    line-height: 2;
     color: #000;
     text-align: left;     
 }
@@ -200,4 +200,7 @@ h3 {
   left: 50%;
   margin-left: -0.5em;
   top: 0;
+}
+
+#site-wrapper {
 }
